@@ -12,7 +12,7 @@ default_args = {
 }
 
 @dag(
-    dag_id='dag_with_taskflow_api_v1',
+    dag_id='dag_2',
     default_args=default_args, 
     start_date=datetime(2023, 6, 28), 
     schedule_interval='@once',
