@@ -9,9 +9,9 @@ aws_id = '114899394146'
 bucket = 'datapath-mlops-1'
 role_arn = 'arn:aws:iam::114899394146:role/aws-sagemaker-for-deploy-ml-model'
 # URI del modelo en MLflow
-mlflow_experiment_id = '10'
-mlflow_run_id = '21042c01d4f84bb0aabe0daa35a836b4'
-model_name = 'logistic_regression_model'
+# mlflow_experiment_id = '2'
+# mlflow_run_id = '41afa1b68e744837b9728ae4f6954743'
+model_name = 'prd_logreg_model'
 # model_uri = f's3://{bucket}/{mlflow_experiment_id}/{mlflow_run_id}/artifacts/{model_name}'
 model_uri = f'models:/{model_name}/Production'
 

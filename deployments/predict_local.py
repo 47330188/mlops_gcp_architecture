@@ -11,7 +11,7 @@ import pandas as pd
 
 url = "http://127.0.0.1:1234/invocations"
 
-data = pd.read_csv("../MLOps/data/output_data/x_test.csv")
+data = pd.read_csv("../data/output_data/x_test.csv")
 print('Total Rows:', len(data))
 
 input_data = data[:10].values.tolist()

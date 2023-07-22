@@ -21,7 +21,7 @@ Telco Customer Churn dataset from <a href="https://www.kaggle.com/datasets/blast
 <a href="https://www.docker.com/" target="_blank"><img alt="Docker" src="https://img.shields.io/badge/-Docker Compose-0db7ed?style=flat-square&logo=docker&logoColor=white" height="20"/></a>
 <a href="https://git-scm.com/" target="_blank"><img alt="Git" src="https://img.shields.io/badge/-Git-F1502F?style=flat-square&logo=git&logoColor=white" height="20"/></a>
 
-## How to reproduce
+<!-- ## How to reproduce
 
 1. Have <a href="https://docs.docker.com/get-docker/" target="_blank">Docker</a> installed and running.
 
@@ -84,4 +84,4 @@ docker rm $(docker ps -aq)
 Finally, run the following to delete all (named) volumes
 ```commandline
 docker volume rm $(docker volume ls -q)
-```
+``` -->
